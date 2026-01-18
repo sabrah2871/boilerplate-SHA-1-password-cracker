@@ -1,5 +1,4 @@
 import hashlib
-from hashlib import pbkdf2_hmac
 
 def crack_sha1_hash(hash, use_salts = False):
     # list of salts
