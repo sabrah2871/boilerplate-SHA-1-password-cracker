@@ -36,9 +36,3 @@ def crack_sha1_hash(hash, use_salts = False):
                     break
 
     return "PASSWORD NOT IN DATABASE"
-
-# usage
-# print(f"password: {crack_sha1_hash("80540a46a2c1a0eae58d9868f01c32bdcec9a010")}") # 01071988
-# print(f"password: {crack_sha1_hash("18c28604dd31094a8d69dae60f1bcd347f1afc5a")}") # superman
-# print(f"password: {crack_sha1_hash("53d8b3dc9d39f0184144674e310185e41a87ffd5", use_salts=True)}") # superman
-# print(f"password: {crack_sha1_hash("da5a4e8cf89539e66097acd2f8af128acae2f8ae", use_salts=True)}") # q1w2e3r4t5
